@@ -1,0 +1,747 @@
+body ,h1 , h2 , h3, h4, h5, h6, body, p, form, ul, ol, li, textarea, input ,select{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-color: #E9EAED;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 1.5;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+div ,img ,li ,ul{
+    border-radius: 5px;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #1C2327;
+    border-radius: 0;
+}
+/*--header--*/
+.headerBox{
+    height: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 60px;
+}
+.headerBox ul li{
+    color: #00c1de;
+    float: left;
+    margin-right: 36px;
+}
+.header ul li :hover{
+    color: #00c1de;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #1C2327;
+    border-radius: 0;
+}
+.header a{
+    color: #ffffff;
+}
+/*--header--*/
+.headerBox{
+    height: 100%;
+    /*margin-left: auto;*/
+    line-height: 60px;
+}
+.headerBox ul li{
+    color: #00c1de;
+    float: left;
+    margin-right: 36px;
+}
+.headerBox h1{
+    width: 160px;
+    height: 50px;
+    float: left;
+    font-weight: normal;
+    padding: 0 80px 0 55px;
+    font-size: 24px;
+}
+.headerBox .nav{
+    height: 100%;
+    float: left;
+}
+.headerBox .search{
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+.headerBox img{
+    width: 50px;
+    height: 100%;
+    float: right;
+}
+/*--headerBox--*/
+/*620+268+284+12*/
+.banner{
+    width: 1200px;
+    height: 280px;
+    background: azure;
+    margin: 20px auto;
+}
+.bannerLeft{
+    width:620px;
+    height: 100%;
+    background: #5856d6;
+    float: left;
+    position: relative;
+}
+.bannerLeft .bannerImg{
+    width: 100%;
+    height: 100%;
+}
+.bannerImg li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bannerImg li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.leftBtn ,.rightBtn{
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    cursor: pointer;
+}
+.leftBtn{
+    left: 14px;
+}
+.rightBtn{
+    right: 14px;
+}
+.Btm{
+    width: 96px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 36px;
+    cursor: pointer;
+}
+.Btm li{
+    width: 10px;
+    height: 10px;
+    background-color: #e4e3e3;
+    float: left;
+    margin-right: 14px;
+}
+/*
+ 四个小点96 10 14px，bottom36px */
+.bannerImg li a img {
+    width: 100%;
+    height: 100%;
+}
+ul.bannerMid{
+    width:268px;
+    height:100%;
+    background: azure;
+    margin-left: 12px;
+    float: left;
+}
+.bannerMid li{
+    height: 125px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.bannerMid a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.bannerMid p{
+    font-size: 15px;
+    width: 78%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    height: 48px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /*text-overflow: ellipsis;*/
+    -webkit-box-orient:vertical;
+}
+.bannerMid li a img:hover, .upImg img:hover, .dairyTab img:hover, .subject img:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.4s ease-in;
+}
+bannerMid a, .dairyTab a, .subject a{
+    overflow: hidden;
+}
+.linkMore{
+    margin: 15px;
+    padding-bottom: 52px;
+}
+.linkMore li ,.linkMore img{
+    float: left;
+    width: 59px;
+    height: 59px;
+    margin-right: 4px;
+}
+.linkMore a{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.dairy{
+    width: 1200px;
+    height: 310px;
+    background: azure;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.dairyLeft{
+    width: 860px;
+    height: 270px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+}
+.dairyLeft li{
+    float: left;
+}
+.dairyLeft li a{
+    color: #333333;
+    margin-right: 36px;
+    float: left;
+    line-height: 40px;
+}
+.dairyList {
+    border-bottom: 1px solid #e4e3e3;
+    overflow: hidden;
+}
+.tabList{
+    width: 570px;
+    height: 210px;
+    /*background-color: #5856d6;*/
+    margin-left: 290px;
+    position: relative;
+}
+.tabList b{
+    width: 568px;
+    display: block;
+    background: #E9EAED;
+    margin-left: 2px;
+}
+.tabList p{
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    height: 48px;
+    color: #333333;
+    font-weight: normal;
+    margin-left: 15px;
+}
+.tabList .hot{
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    height: 48px;
+    color: #333333;
+    font-weight: normal;
+    margin-left: 15px;
+    display: none;
+}
+.tabList b:first-child i::before{
+    content: "1";
+    font-style: normal;
+    position: absolute;
+    left: 15px;
+    top: 6px;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background: #000000;
+}
+.tabList b:nth-child(2) i::before{
+    content: "2";
+    font-style: normal;
+    position: absolute;
+    left: 15px;
+    top: 86px;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background: #9A9A9A;
+}
+.tabList b:nth-child(3) i::before{
+    content: "3";
+    font-style: normal;
+    position: absolute;
+    left: 15px;
+    top: 118px;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background: #9A9A9A;
+}
+.tabList b:nth-child(4) i::before{
+    content: "4";
+    font-style: normal;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background: #9A9A9A;
+}
+.tabList b:nth-child(5) i::before{
+    content: "5";
+    font-style: normal;
+    position: absolute;
+    left: 15px;
+    top: 182px;
+    font-size: 9px;
+    color: #fff;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    background: #9A9A9A;
+}
+/*.tabList b i::before {*/
+/*    position: absolute;*/
+/*    left: 15px;*/
+/*    top: 6px;*/
+/*    font-size: 9px;*/
+/*    color: #fff;*/
+/*    line-height: 20px;*/
+/*    width: 20px;*/
+/*    text-align: center;*/
+/*    background: #000000;*/
+/*}*/
+.tabList b h2{
+    color: #000;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    margin-left: 56px;
+    text-overflow: ellipsis;
+}
+.tabList b h3{
+    color: #333333;
+    font-weight: normal;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    margin-left: 56px;
+    text-overflow: ellipsis;
+}
+.dairyTab{
+    width: 275px;
+    height: 210px;
+    margin-top: 10px;
+}
+.dairyTab li{
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+.dairyTab li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.dairyTab img{
+    width: 275px;
+    height: 100px;
+}
+.dairyTab a p{
+    font-size: 15px;
+    width: 78%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    height: 48px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.updateContent li{
+    width: 242px;
+    height: 38px;
+    background-color: #f6f6f6;
+    margin: 12px;
+    font-size: 12px;
+    line-height: 38px;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.updateContent li::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 10px;
+    left: 15px;
+    top: 20px;
+}
+.upImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.updateList > li{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+.updateList li i{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #B1B1B1;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-style: normal;
+    position: relative;
+}
+.updateList li i:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 9px;
+    color: #fff;
+    line-height: 16px;
+    width: 16px;
+    text-align: center
+}
+.updateList li:first-child i::before{
+    content: "1";
+    background: #ff6600;
+}
+.updateList li:nth-child(2) i::before {
+    content: "2";
+    background: #ff6600;
+}
+.updateList li:nth-child(3) i::before {
+    content: "3";
+    background: #ff6600;
+}
+.updateList li:nth-child(4) i::before {
+    content: "4";
+}
+.updateList li:nth-child(5) i::before {
+    content: "5";
+}
+.updateList li:nth-child(6) i::before {
+    content: "6";
+}
+.upImg img{
+    width: 242px;
+    height: 120px;
+    margin: 20px 20px 15px 20px;
+    cursor: pointer;
+}
+.upImg p{
+    font-size: 15px;
+    width: 78%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 36%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    height: 48px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+}
+.updateContent li a{
+    margin: 4px 12px 4px 30px;
+}
+/* 310,38+12)*4 +42 +40*/
+.topic{
+    width: 1200px;
+    margin: 20px auto;
+}
+.topicLeft{
+    width: 860px;
+    min-height: 1800px;
+    padding: 20px;
+    background-color: #EF8996;
+}
+.topicRight{
+    width: 282px;
+    min-height: 1800px;
+    float: right;
+    background-color: #EF8996;
+}
+.topicLeft .subjectList{
+    width: 860px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e4e3e3;
+}
+.subjectList li, .subjectList li a{
+    float: left;
+    overflow: hidden;
+}
+
+.topicLeft .subject{
+    width: 850px;
+    height: 570px;
+    padding: 20px 0 40px 10px;
+    background-color: #ffffff;
+}
+.topicLeft .articleList{
+    width: 860px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e4e3e3;
+}
+.topicLeft .articleBox{
+    width: 850px;
+    min-height: 600px;
+    padding: 20px 0 40px 10px;
+    background-color: #ffffff;
+}
+.articleBox li{
+    width: 840px;
+    height: 183px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #e4e3e3;
+}
+.articleBox li h2{
+    font-size: 18px;
+}
+.articleBox li h2 ::before{
+    content: "【顶】";
+    color: #f00;
+}
+.articleBox li h2 :hover {
+    color: #337AB7;
+}
+.articleBox img{
+    width:199px;
+    margin-top: 10px;
+    float: left;
+}
+.articleBox .learn{
+    background-color: #12b7de;
+    cursor: pointer;
+    position: relative;
+    left: -199px;
+    top: -91px;
+    color: #FFFFFF;
+    padding: 3px;
+    border-radius: 3px;
+}
+.articleBox .view{
+    background-color: #12b7de;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 3px;
+    position: relative;
+    left: 480px;
+    top: 10px;
+    border-radius: 3px;
+}
+.articleText{
+    width: 600px;
+    font-size: 14px;
+    color: #666;
+    margin: 20px;
+    float: right;
+    /*text-overflow: ellipsis;*/
+    /*-webkit-box-orient: vertical;*/
+    /*display: -webkit-box;*/
+    /*-webkit-line-clamp: 3;*/
+}
+.articleDate{
+    float: left;
+    margin-right: 400px;
+    position: relative;
+    top: -13px;
+    left: 12px;
+}
+.articleDate p{
+    float: right;
+}
+/*  20
+top 42
+20
+860 576 840 10
+280 288
+900*678=860+20*2
+*/
+.subjectBox li{
+    width: 236px;
+    height: 239px;
+    float: left;
+    overflow: hidden;
+    padding: 20px;
+    border-right: 1px solid #e4e3e3;
+    border-bottom: 1px solid #e4e3e3;
+}
+.subjectList li a{
+    margin-left: 10px;
+}
+.subjectBox .li .a {
+    display: block;
+}
+.subjectBox p{
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    font-size: 15px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 10px 0 10px;
+}
+.subjectBox >li >h2{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0 10px;
+}
+.subjectBox img{
+    width: 235px;
+    height: 100px;
+}
+.subjectRead ::before{
+    content: "+";
+}
+.subjectThumb{
+    width: 100%;
+    display: block;
+}
+.Right1{
+    padding: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.message img{
+    margin-left: 160px;
+}
+.card {
+    width: 282px;
+    background: #ffffff;
+    float: right;
+}
+.update::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    color: #000000;
+    position: absolute;
+    left: 20px;
+    bottom: -5px;
+}
+.cardImg{
+    width: 284px;
+    background: #ffffff;
+    float: right;
+    font-size: 0;
+}
+.card .update{
+    color: #333333;
+    margin-right: 36px;
+    line-height: 40px;
+    padding: 20px 20px 0;
+    border-bottom: 1px solid #e4e3e3;
+}
+.card h2{
+    font-size: 22px;
+    margin: 10px;
+    color: #89919a;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.card span{
+    font-size: 12px;
+    padding-left: 20px;
+    line-height: 29px;
+    color: #d0d2d4;
+    display: block;
+}
+.ReturnTop img{
+    width: 3%;
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
+}
+/*--dairy--*/
+/*.head{*/
+/*    background: #000 linear-gradient(to left, #4cd964, #5ac8fa, #007aff, #34aadc, #5856d6, #ff2d55);*/
+/*    content: "";*/
+/*    height: 5px;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*}*/
