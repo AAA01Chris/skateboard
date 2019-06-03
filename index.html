@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <title>个人博客</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/animate.js"></script>
+    <script src="./js/index.js" ></script>
 </head>
 <body>
 <div class="header">
     <div class="headerBox">
-        <h1><a href="">刘奇的博客</a></h1>
+        <h1><a href="" id="home">刘奇的博客</a></h1>
         <ul class="nav">
             <li><a href="" style="color: #00c1de">网站首页</a></li>
             <li><a href="">健身日记</a></li>
             <li><a href="">网站制作</a></li>
             <li><a href="">设计新的</a></li>
-            <li><a href="">优秀作品</a></li>
+            <li><a href="">时间轴</a></li>
             <li><a href="">博客导航</a></li>
             <li><a href="">关于我</a></li>
             <li><a href="#bottom">留言</a></li>
@@ -25,7 +27,7 @@
     </div>
 </div>
 <div class="banner">
-    <div class="bannerLeft">
+    <div class="bannerLeft" style="overflow: hidden">
         <ul class="bannerImg">
             <li><a href=""><img src="./image/1.jpg" alt=""></a></li>
             <li><a href=""><img src="./image/banner1.jpg" alt=""></a></li>
@@ -33,10 +35,10 @@
             <li><a href=""><img src="./image/banner3.jpg" alt=""></a></li>
         </ul>
         <ul>
-            <li class="leftBtn"><img src="./image/btn1.png" alt=""></li>
-            <li class="rightBtn"><img src="./image/btn2.png" alt=""></li>
+            <li class="leftBtn" style="z-index: 999"><img src="./image/btn1.png" alt=""></li>
+            <li class="rightBtn"style="z-index: 999"><img src="./image/btn2.png" alt=""></li>
         </ul>
-        <ul class="Btm">
+        <ul class="Btm"style="z-index: 999">
             <li></li>
             <li></li>
             <li></li>
@@ -107,30 +109,30 @@
                 </li>
             </ul>
             <ul class="tabList">
-                <b>
+                <b class="bot">
                     <i></i>
                     <a><h2 title="做一个爱设计的帅哥">做一个爱设计的童鞋</h2></a>
-                    <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片</p>
+                    <p class="hot">自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片</p>
                 </b>
                 <b>
                     <i></i>
                     <a><h3 title="做一个爱设计的帅哥">电话以外的宁静</h3></a>
-                    <p class="hot">电话很久没有响过了，我的QQ也很久没有在线了，消失了很多天，刚刚结识的朋友因为我身上又起了红疹，每天都发来消息询问我的情况，我做到了这么多天来的沉默，我相信，没有网络，我还是可以继续我自己的生活</p>
+                    <p >电话很久没有响过了，我的QQ也很久没有在线了，消失了很多天，刚刚结识的朋友因为我身上又起了红疹，每天都发来消息询问我的情况，我做到了这么多天来的沉默，我相信，没有网络，我还是可以继续我自己的生活</p>
                 </b>
                 <b>
                     <i></i>
                     <a><h3 title="做一个爱设计的帅哥">遇见一个未知的你</h3></a>
-                    <p class="hot">听着那熟悉的歌曲看着那一张张可爱的图片.-读着我们共同欣赏的诗……也许我们曾经相遇,看着你远去的背影 ,沿着你来的方向 ,回忆时间穿梭于幸福的点点滴滴....</p>
+                    <p >听着那熟悉的歌曲看着那一张张可爱的图片.-读着我们共同欣赏的诗……也许我们曾经相遇,看着你远去的背影 ,沿着你来的方向 ,回忆时间穿梭于幸福的点点滴滴....</p>
                 </b>
                 <b>
                     <i></i>
                     <a><h3 title="做一个爱设计的帅哥">做一个爱设计的童鞋</h3></a>
-                    <p class="hot">不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
+                    <p >不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
                 </b>
                 <b>
                     <i></i>
                     <a><h3 title="做一个爱设计的帅哥">做一个爱设计的童鞋</h3></a>
-                    <p class="hot">个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
+                    <p >个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
                 </b>
             </ul>
         </div>
@@ -247,7 +249,7 @@
         <div class="subject">
             <ul class="subjectBox">
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub1.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub1.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -255,7 +257,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub2.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub2.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -263,7 +265,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub3.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub3.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -271,7 +273,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub4.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub4.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -279,7 +281,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub5.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub5.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -287,7 +289,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href class="subjectThumb"><img src="./image/sub6.jpg" alt=""></a>
+                    <a href class="subjectThumb"><img aa="./image/sub6.jpg" alt="" class = 'delayLoad'></a>
                     <h2>【个人博客空间申请】金牛云服，免费领空间啦</h2>
                     <p>还在愁域名购买了，如何选择主机或者服务器吗？其实选择主机或者服务器有几个重要的选项，比如，线路，CPU，内存，带宽，网页空间，数据库，月流量等等。那什么是主机，什么是服务器，他们的区别</p>
                     <a class="subjectRead" style="color: #096">
@@ -310,7 +312,7 @@
                         <h2>
                             <before>作为一个设计师,如果遭到质疑你是否能恪守自己的原则?</before>
                         </h2>
-                        <img src="./image/article1.jpg" alt="">
+                        <img aa="./image/article1.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             就拿我自己来说吧，有时候会很矛盾，设计好的作品，不把它分享出来，会觉得待在自己电脑里面实在是没有意义。干脆就发布出去吧。我也害怕收到大家不好的评论，有些评论，可能说者无意，但是对于每一个用心的站长来说，都会受很深
                         </p>
@@ -326,7 +328,7 @@
                         <h2>
                             <before>十条设计原则教你如何学会网页布局</before>
                         </h2>
-                        <img src="./image/article1.jpg" alt="">
+                        <img aa="./image/article1.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             网页常见的布局有很多种,单列布局,多列布局.其中单列布局是国外很多网站比较常用的.咱们很多站长以及门户网站都使用的是是两列布局,很少用三列布局的.下面我来分享下我们常用的网页布局格式以及设计技巧
                         </p>
@@ -341,7 +343,7 @@
                         <h2>
                             <before>安静的做一个爱设计的童鞋</before>
                         </h2>
-                        <img src="./image/article1.jpg" alt="">
+                        <img aa="./image/article1.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。每当看到自己喜欢的配色图片 </p>
                         <a class="learn">个人博客</a>
@@ -355,7 +357,7 @@
                         <h2>
                             <before>Come on,行动起来吧!我们和时间来一场赛跑!</before>
                         </h2>
-                        <img src="./image/article1.jpg" alt="">
+                        <img aa="./image/article1.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             "时间过得那么飞快,使我的小心眼儿里不只是着急,还有悲伤.有一天,我放学回家,看到太阳快落山了,就下决心说:"我要比太阳更快地回家."我狂奔回去,站在庭院前喘气的时候,看到太阳还露着半边脸,我高兴地跳跃起来 </p>
                         <a class="learn">时间比赛</a>
@@ -369,7 +371,7 @@
                         <h2>
                             <before>双十一，阿里云特惠活动，块来领券啦！</before>
                         </h2>
-                        <img src="./image/article1.jpg" alt="">
+                        <img aa="./image/article1.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             一折的产品，有没有看错，咱来看看，到底是哪些一折，想买空间吗？算了吧，服务器的价钱都比空间便宜呢，那肯定买服务器啊，咱来看看阿里云一折的服务器哪些好。1核2G云服务器1年，原价821.00/1年，现在呢，新用户参团的话，￥199.00/1年。很多小伙伴担心续费贵，其实... </p>
                         <a class="learn">网页公告</a>
@@ -384,7 +386,7 @@
                         <h2 style="margin-left: 8px">
                          我是怎么评价自己的
                         </h2>
-                        <img src="./image/article2.jpg" alt="">
+                        <img aa="./image/article2.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人. </p>
                         <a class="learn">网页公告</a>
@@ -400,7 +402,7 @@
                         <h2 style="margin-left: 8px">
                          即便是坑，我也想要拉你入伙！
                         </h2>
-                        <img src="./image/article2.jpg" alt="">
+                        <img aa="./image/article2.jpg" alt="" class = 'delayLoad'>
                         <p class="articleText">
                             对于刚毕业的学生来说，想学习建网站，掌握一技之长，最简单的入门无非就是学会html和css，先前发表过一篇文章《如果要学习web前端开发，需要学习什么？》，如果你还不知道如何着手，请仔细阅读....7天的时间，入门是没有问题的，当然，如果你用心的话！  </p>
                         <a class="learn">网页公告</a>
@@ -421,11 +423,15 @@
     <a href="#top"><img src="./image/Top.png" alt=""></a>
 </div>
 <footer>
+    <div class="contact">
+        <img src="./image/footer1.png" alt="">
+    </div>
     <div class="footerContent">
         <h3>个人声明：</h3>
         <p>1.本站是我的第一个博客，基本模仿杨青青个人博客写的，感谢她提供了我可供学习的材料</p>
         <p>2.写这样的页面纯粹是为了学习交流，在这里祝大家生活美满，心想事成！</p>
         <p>3.林深时见鹿，海蓝时见鲸，梦想时见你。</p>
+        <p>4.And time can do so much.Are you still mine.</p>
     </div>
 </footer>
 </body>

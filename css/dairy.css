@@ -1,0 +1,117 @@
+body ,h1 , h2 , h3, h4, h5, h6, body, p, form, ul, ol, li, textarea, input ,select{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-color: #E9EAED;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 1.5;
+    position: relative;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+div ,img ,li ,ul{
+    border-radius: 5px;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #1C2327;
+    border-radius: 0;
+}
+/*--header--*/
+.headerBox{
+    height: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 60px;
+}
+.headerBox ul li{
+    color: #00c1de;
+    float: left;
+    margin-right: 36px;
+}
+.header ul li :hover{
+    color: #00c1de;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background: #1C2327;
+    border-radius: 0;
+}
+.header a{
+    color: #ffffff;
+}
+/*--header--*/
+.headerBox{
+    height: 100%;
+    /*margin-left: auto;*/
+    line-height: 60px;
+}
+.headerBox ul li{
+    color: #00c1de;
+    float: left;
+    margin-right: 36px;
+}
+.headerBox h1{
+    width: 160px;
+    height: 50px;
+    float: left;
+    font-weight: normal;
+    padding: 0 62px 0 55px;
+    font-size: 24px;
+}
+.headerBox .nav{
+    height: 100%;
+    float: left;
+}
+.headerBox .search{
+    float: left;
+    margin-top: 8px;
+    margin-left: 170px;
+}
+.topic{
+    width: 1200px;
+    margin: 20px auto;
+    background-color: #EF8996;
+    height: 1000px;
+}
+.topic > .leftContent{
+    width: 75%;
+    float: left;
+    overflow: hidden;
+    background-color: #5856d6;
+    height: 500px;
+}
+.topic > .rightContent{
+    width: 23.5%;
+    float: right;
+    overflow: hidden;
+    background-color: #5856d6;
+    height: 500px;
+}
+.topic > .leftContent > .title{
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.topic > .leftContent > .title >img{
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.title h1{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.title p{
+    color: #666
+}
